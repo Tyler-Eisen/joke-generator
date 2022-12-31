@@ -1,8 +1,8 @@
-import renderToDom from '../utils/renderToDom';
+import renderToDom from '../../utils/renderToDom';
 
 const jokeSetupBtn = () => {
   const domString = `
-<button type="button" class="btn btn-danger" id="setup">Get a Joke</button>
+<button type="button" class="btn btn-danger" id="setup-btn">Get a Joke</button>
 `;
   renderToDom('#joke-setup-button', domString);
 };
